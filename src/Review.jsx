@@ -23,7 +23,7 @@ export const Review = () => {
     return num;
   }
 
-  // fn que mustra las personas 'previas' al cliquear en el botón fecla izquierdo <
+  // fn que mustra las personas 'previas' al cliquear en el botón flecha izquierdo <
   const prevPerson = () => {
 
     let newIndex;
