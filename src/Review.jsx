@@ -13,7 +13,8 @@ export const Review = () => {
   // desestructuramos la data mediante el state para hacer dinamico el cambio persona
   const { name, job, image, text} = people[ index ];
 
-  // fn que válida que el `index` al tomar un valor mayor al último indice del array de la data, regrese el valor del primer indice de la data y si el index toma un valor menor a 0 entonces regrese el úlimo indice del array de la data.
+  /* fn que válida que el `index` al tomar un valor mayor al último indice del array de la data, regrese el valor del primer indice de la data y 
+  si el index toma un valor menor a 0 entonces regrese el úlimo indice del array de la data. */
   const validateIndex = ( num ) => {
 
     if( num > people.length - 1) return 0;
