@@ -1,10 +1,11 @@
-# Acordeón desarrollado con React.
+Sencilla App desarrollada con React, la cual es una lista de críticos que nos permite ver una reseña en particular, podemos ir hacia adelante o hacia atrás para leer cada una de las reseñas, también podemos leer una reseña de manera aleatoria.
+
+
 #### Tecnologías usadas: 
 - HTML
 - CSS
 - React
   - useState
-  - PropTypes
   - React Icons Library
 
 - Vite
